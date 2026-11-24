@@ -23,4 +23,4 @@ This checks assembly syntax, not execution of the custom instruction words. The 
 
 The POPCNT C exercise moved its operand to x13 although its instruction word reads x10; it now loads x10. The POPCNT assembly routine used x8/x9 without preserving those callee-saved registers; those scratch values now use caller-saved x28/x29. Corresponding instruction comments were corrected. RTL behavior was preserved. Documentation, the isolated test fixture and testbench are new migration work.
 
-See [ATTRIBUTION.md](ATTRIBUTION.md) before publication.
+See [ATTRIBUTION.md](ATTRIBUTION.md) for source credits and provenance.
